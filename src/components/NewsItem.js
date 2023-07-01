@@ -8,7 +8,7 @@ export class NewsItem extends Component {
                 <div className="card">
                 <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left: '90%', zIndex: '1'}}> {source}
                         </span>
-                    <img src={!imageUrl ? "https://fdn.gsmarena.com/imgroot/news/21/08/xiaomi-smart-home-india-annoucnements/-476x249w4/gsmarena_00.jpg" : imageUrl} className="card-img-top" alt="..." />
+                    <img src={!imageUrl ? "http://cdn.wionews.com/sites/default/files/2023/06/24/361911-untitled-design-2023-06-24t152354805.png" : imageUrl} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{title}  </h5>
                         <p className="card-text">{description}</p>
